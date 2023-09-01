@@ -7,7 +7,7 @@ if the hash digest (character representation of the hash)
 ends in N-characters of zero. The F parameter determines
 how many hash values the command should find.
 
-usage exmple: 
+usage example: 
   hash_finder -N 5 -F 3
   
 Options:
