@@ -8,6 +8,7 @@ use std::sync::mpsc::*;
 /// if the hash digest (character representation of the hash)
 /// ends in N-characters of zero. The F parameter determines
 /// how many hash values the command should find.
+/// Usage example: hash_finder -N 5 -F 3
 struct Args {
     /// quantity of nulls at the end of hash
     #[argh(option, short = 'N')]
